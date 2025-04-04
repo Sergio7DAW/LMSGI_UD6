@@ -1,0 +1,22 @@
+14:48:15.075  INFO  [LibraryManager] ---- group creation in C:\Users\1DAW2425-09\Desktop\1_DAW_3_TERM\LSMGI\act2\libs
+14:48:15.075  INFO  [LibraryManager]  100
+14:50:06.094  INFO  [LibraryManager] shutdown begins
+14:50:06.094  INFO  [LibraryManager] shutdown complete.
+14:51:07.646  INFO  [LibraryManager] ---- starting up ----
+14:51:07.647  INFO  [LibraryManager]  100
+14:51:07.647  INFO  [LibraryManager] Library group ready
+14:57:23.025  INFO  [LibraryManager] shutdown begins
+14:57:23.028  INFO  [LibraryManager]  closed library BD_prueba
+14:57:23.028  INFO  [LibraryManager] shutdown complete.
+10:04:31.858  INFO  [LibraryManager] ---- starting up ----
+10:04:31.858  INFO  [LibraryManager]  100
+10:04:31.921  INFO  [LibraryManager] Library group ready
+10:15:30.259  INFO  [LibraryManager] shutdown begins
+10:15:30.263  INFO  [LibraryManager]  closed library BD_prueba
+10:15:30.263  INFO  [LibraryManager] shutdown complete.
+10:18:07.057  INFO  [LibraryManager] ---- starting up ----
+10:18:07.057  INFO  [LibraryManager]  100
+10:18:07.121  INFO  [LibraryManager] Library group ready
+10:22:32.781  INFO  [LibraryManager] shutdown begins
+10:22:32.782  INFO  [LibraryManager]  closed library BD_prueba
+10:22:32.782  INFO  [LibraryManager] shutdown complete.

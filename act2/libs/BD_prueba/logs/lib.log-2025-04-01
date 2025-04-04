@@ -1,0 +1,12 @@
+14:51:17.519  INFO  [lib BD_prueba] Qizx 4.4p1 creating new XML Library in C:\Users\1DAW2425-09\Desktop\1_DAW_3_TERM\LSMGI\act2\libs\BD_prueba
+14:51:17.520  INFO  [lib BD_prueba] create storage in C:\Users\1DAW2425-09\Desktop\1_DAW_3_TERM\LSMGI\act2\libs\BD_prueba\contents.qdb
+14:51:17.523  INFO  [lib BD_prueba] storage created
+14:51:17.652  INFO  [lib BD_prueba] library creation done
+14:52:19.636  INFO  [lib BD_prueba] commit start BD_prueba (session 1)
+14:52:19.656  INFO  [lib BD_prueba] commit 1 on BD_prueba (session 1)
+14:52:19.673  INFO  [lib BD_prueba] commit 1 done
+14:52:19.673  INFO  [lib BD_prueba] commit end BD_prueba (session 1) -> state: [ 1 ][ 1 2 ]
+14:52:19.674  INFO  [lib BD_prueba] sweeper deleted 1/1 metadocs: 5
+14:57:23.026  INFO  [lib BD_prueba] All sessions closed
+14:57:23.026  INFO  [lib BD_prueba] Sweeper stopped
+14:57:23.027  INFO  [lib BD_prueba] library closed 

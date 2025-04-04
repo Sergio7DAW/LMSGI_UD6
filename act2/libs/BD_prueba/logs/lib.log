@@ -1,0 +1,23 @@
+10:04:31.918  INFO  [lib BD_prueba] Library opened by Qizx 4.4p1
+10:04:31.920  INFO  [lib BD_prueba]  location C:\Users\1DAW2425-09\Desktop\1_DAW_3_TERM\LSMGI\act2\libs\BD_prueba
+10:04:31.920  INFO  [lib BD_prueba]  document storage version=5, lastBId=13, BCount=12, maxA=502
+10:09:19.361  INFO  [lib BD_prueba] commit start BD_prueba (session 1)
+10:09:19.418  INFO  [lib BD_prueba] commit 2 on BD_prueba (session 1)
+10:09:19.437  INFO  [lib BD_prueba] commit 2 done
+10:09:19.437  INFO  [lib BD_prueba] commit end BD_prueba (session 1) -> state: [ 1 2 ][ 1 2 3 ]
+10:09:19.437  INFO  [lib BD_prueba] sweeper deleted 1/1 docs: 8 in ms 0.4656
+10:09:19.438  INFO  [lib BD_prueba] sweeper deleted 1/1 metadocs: 9
+10:12:22.864  INFO  [lib BD_prueba] commit start BD_prueba (session 1)
+10:12:22.882  INFO  [lib BD_prueba] commit 3 on BD_prueba (session 1)
+10:12:22.901  INFO  [lib BD_prueba] commit 3 done
+10:12:22.901  INFO  [lib BD_prueba] sweeper deleted 1/1 docs: 14 in ms 0.0756
+10:12:22.901  INFO  [lib BD_prueba] commit end BD_prueba (session 1) -> state: [ 1 2 3 ][ 1 2 3 4 ]
+10:12:22.901  INFO  [lib BD_prueba] sweeper deleted 1/1 metadocs: 15
+10:15:30.259  INFO  [lib BD_prueba] All sessions closed
+10:15:30.261  INFO  [lib BD_prueba] Sweeper stopped
+10:15:30.263  INFO  [lib BD_prueba] library closed 
+10:18:07.120  INFO  [lib BD_prueba] Library opened by Qizx 4.4p1
+10:18:07.120  INFO  [lib BD_prueba]  location C:\Users\1DAW2425-09\Desktop\1_DAW_3_TERM\LSMGI\act2\libs\BD_prueba
+10:18:07.120  INFO  [lib BD_prueba]  document storage version=5, lastBId=21, BCount=16, maxA=502
+10:22:32.781  INFO  [lib BD_prueba] All sessions closed
+10:22:32.782  INFO  [lib BD_prueba] library closed 

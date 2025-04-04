@@ -1,0 +1,23 @@
+/*
+ *    Qizx Free_Engine-4.4p1
+ *
+ *    This code is part of Qizx XQuery engine
+ *    Copyright (c) 2004-2010 Axyana Software -- All rights reserved.
+ *
+ *    For conditions of use, see the accompanying license files.
+ */
+<body>
+<p>This package represents a simple framework for extending and redefining  
+full-text features. It is meant for advanced use.
+<p>Redefining full-text features involves plugging a FullTextFactory implementation
+ which creates or locates various full-text resources defined by the following interfaces:<ul>
+<li>Interface TextTokenizer specifies an object that parses text chunks 
+into "tokens" (a word is a particular kind of token). It is the only mandatory
+feature created by a FullTextFactory.
+<li>interface Stemmer is an object that extracts the "stem" of a word, allowing stemming
+in full-text searches.
+<li>interface Thesaurus defines a thesaurus driver, allowing
+query words to be replaced by words or word sequences found in the thesaurus.
+<li>interface Scorer is an abstraction of the scoring algorithm.
+</ul>
+</body>
