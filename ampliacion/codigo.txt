@@ -1,0 +1,57 @@
+// Código para la consulta HTML
+
+<html>
+<body>
+<h1>Discos Destacados</h1>
+<table border="1">
+<tr>
+    <th>Banda</th>
+    <th>Disco</th>
+    <th>Año</th>
+    <th>Rating</th>
+    <th>Canciones</th>
+</tr>
+
+{
+for $banda in doc("DB_Bandas.xml")//Bandas/banda
+for $disco in $banda/disco
+let $nombre := $banda/nombre
+where $disco/rating > 9 and $disco/numeroCanciones > 8
+order by $disco/rating descending
+return
+<tr>
+    <td>{data($nombre)}</td>
+    <td>{data($disco/titulo)}</td>
+    <td>{data($disco/añoLanzamiento)}</td>
+    <td>{data($disco/rating)}</td>
+    <td>{data($disco/numeroCanciones)}</td>
+</tr>
+}
+
+</table>
+</body>
+</html>
+
+
+// Código para añadir nodo
+
+insert node
+<disco>
+    <titulo>The Car</titulo>
+    <añoLanzamiento>2022</añoLanzamiento>
+    <rating>8.2</rating>
+    <numeroCanciones>10</numeroCanciones>
+</disco>
+as last into doc("DB_Bandas.xml")//Bandas/banda[@id=3]
+
+// Código para eliminar discos
+
+delete node
+doc("DB_Bandas.xml")//Bandas/banda/disco[numeroCanciones < 6]
+
+
+// Código para actualizar nomobre
+
+replace value of node
+doc("DB_Bandas.xml")//Bandas/banda[@id=3]/disco[titulo="The Car"]/rating
+with "8.9"

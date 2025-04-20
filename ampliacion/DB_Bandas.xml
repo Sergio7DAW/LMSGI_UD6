@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bandas>
+    <banda id="1">
+        <nombre>Radiohead</nombre>
+        <disco>
+            <titulo>OK Computer</titulo>
+            <añoLanzamiento>1997</añoLanzamiento>
+            <rating>9.5</rating>
+            <numeroCanciones>12</numeroCanciones>
+        </disco>
+        <disco>
+            <titulo>In Rainbows</titulo>
+            <añoLanzamiento>2007</añoLanzamiento>
+            <rating>9.3</rating>
+            <numeroCanciones>10</numeroCanciones>
+        </disco>
+    </banda>
+    <banda id="2">
+        <nombre>Pink Floyd</nombre>
+        <disco>
+            <titulo>The Dark Side of the Moon</titulo>
+            <añoLanzamiento>1973</añoLanzamiento>
+            <rating>9.8</rating>
+            <numeroCanciones>10</numeroCanciones>
+        </disco>
+        <disco>
+            <titulo>Wish You Were Here</titulo>
+            <añoLanzamiento>1975</añoLanzamiento>
+            <rating>9.6</rating>
+            <numeroCanciones>5</numeroCanciones>
+        </disco>
+    </banda>
+    <banda id="3">
+        <nombre>Arctic Monkeys</nombre>
+        <disco>
+            <titulo>AM</titulo>
+            <añoLanzamiento>2013</añoLanzamiento>
+            <rating>8.7</rating>
+            <numeroCanciones>12</numeroCanciones>
+        </disco>
+    </banda>
+</Bandas>
